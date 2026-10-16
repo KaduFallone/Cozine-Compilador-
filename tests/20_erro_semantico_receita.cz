@@ -1,0 +1,6 @@
+# Teste 20: erro semântico (receita chamada com argumentos errados)
+receita soma(a: int, b: int) -> int {
+    comer a + b;
+};
+
+acenderfogao(soma(1));

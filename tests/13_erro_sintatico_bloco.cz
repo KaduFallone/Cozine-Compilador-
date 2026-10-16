@@ -1,0 +1,4 @@
+# Teste 13: erro sintático (estrutura condicional incompleta: bloco sem '}')
+panela x: int = 5;
+garfo (x > 1) {
+    acenderfogao(x);

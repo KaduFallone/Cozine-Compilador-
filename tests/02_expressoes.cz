@@ -1,0 +1,12 @@
+# Teste 2: expressões, precedência e parênteses
+panela a: int = 2;
+panela b: int = 3;
+panela c: int = 4;
+
+acenderfogao(a + b * c);                 # 14  (* antes de +)
+acenderfogao((a + b) * c);               # 20  (parênteses primeiro)
+acenderfogao(10 - 3 - 2);                # 5   (esquerda para a direita)
+acenderfogao(a * (b + c) - 1);           # 13
+acenderfogao(-a * (b - c * 2));          # 10  (menos unário)
+acenderfogao(a * b + c / 8);             # 6.5 (/ sempre dá float)
+acenderfogao(((a + b) * (c - 1)) * 2);   # 30  (parênteses aninhados)

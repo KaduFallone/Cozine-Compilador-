@@ -1,0 +1,3 @@
+# Teste 17: erro semântico (declaração repetida)
+panela preco: int = 5;
+panela preco: float = 2.5;

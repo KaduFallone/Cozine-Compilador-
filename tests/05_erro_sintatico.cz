@@ -1,0 +1,3 @@
+# Teste 5: erro sintático (declaração sem o ';')
+panela total: int = 10
+acenderfogao(total);

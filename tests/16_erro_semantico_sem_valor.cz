@@ -1,0 +1,3 @@
+# Teste 16: erro semântico (variável usada antes de receber valor)
+panela total: int;
+acenderfogao(total + 1);

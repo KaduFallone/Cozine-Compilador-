@@ -1,0 +1,29 @@
+# Teste 3: condicional com condições verdadeiras e falsas
+panela nota: int = 7;
+
+garfo (nota >= 6) {
+    acenderfogao("1 verdadeira: aprovado");
+};
+
+garfo (nota > 9) {
+    acenderfogao("2 nunca aparece");
+};
+acenderfogao("2 falsa: bloco ignorado");
+
+garfo (nota != 7) {
+    acenderfogao("3 nunca aparece");
+} faca {
+    acenderfogao("3 falsa: caiu no faca");
+};
+
+garfo (nota < 5) {
+    acenderfogao("4 nunca aparece");
+} colher (nota < 8) {
+    acenderfogao("4 colher verdadeira: recuperacao");
+} faca {
+    acenderfogao("4 nunca aparece");
+};
+
+garfo (nota * 2 == 14) {
+    acenderfogao("5 verdadeira: dobro e 14");
+};

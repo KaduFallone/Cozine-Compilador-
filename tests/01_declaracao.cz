@@ -1,0 +1,11 @@
+# Teste 1: declaração, atribuição e saída
+panela quantidade: int;
+panela preco: int = 8;
+panela total: int;
+
+quantidade = 3;
+total = quantidade * preco;
+
+acenderfogao(quantidade);
+acenderfogao(preco);
+acenderfogao("Total:", total);

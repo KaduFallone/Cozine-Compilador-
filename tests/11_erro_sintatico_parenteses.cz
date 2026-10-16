@@ -1,0 +1,3 @@
+# Teste 11: erro sintático (parêntese sem fechamento)
+panela x: int = (2 + 3 * 4;
+acenderfogao(x);

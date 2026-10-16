@@ -1,0 +1,16 @@
+# Teste 7: repetições com liquidificar e flambar
+panela contador: int = 0;
+panela soma: int = 0;
+panela i: int;
+
+liquidificar (contador < 3) {
+    acenderfogao("volta", contador);
+    contador = contador + 1;
+};
+
+flambar (i em range(1, 5)) {
+    soma = soma + i;
+};
+
+acenderfogao("soma de 1 a 4:", soma);
+acenderfogao("i depois do flambar:", i);

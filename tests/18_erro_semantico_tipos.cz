@@ -1,0 +1,4 @@
+# Teste 18: erro semântico (operação com tipos incompatíveis)
+panela nome: str = "bolo";
+panela x: int = 3;
+acenderfogao(nome * x);

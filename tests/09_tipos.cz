@@ -1,0 +1,18 @@
+# Teste 9: tipos float, str e char
+panela preco: float = 12.5;
+panela qtd: int = 3;
+panela prato: str = "risoto";
+panela tamanho: char = 'G';
+
+acenderfogao(prato + " de cogumelos");
+acenderfogao("Tamanho:", tamanho);
+acenderfogao("Total:", preco * qtd);
+acenderfogao("Por pessoa:", qtd / 4);
+
+garfo (prato == "risoto") {
+    acenderfogao("prato do dia");
+};
+
+garfo (tamanho != 'P') {
+    acenderfogao("nao e pequeno");
+};

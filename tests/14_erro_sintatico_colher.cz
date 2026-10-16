@@ -1,0 +1,8 @@
+# Teste 14: erro sintático (';' no meio da sequência garfo/colher)
+panela x: int = 5;
+garfo (x > 10) {
+    acenderfogao("grande");
+};
+colher (x > 1) {
+    acenderfogao("medio");
+};

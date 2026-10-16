@@ -1,0 +1,4 @@
+# Teste 6: erro semântico (variável não declarada)
+panela preco: int = 8;
+total = preco * 2;
+acenderfogao(total);

@@ -1,0 +1,24 @@
+# Claude
+/CLAUDE.md
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Executáveis e objetos gerados pelo g++ (os .cpp de output/ continuam no repositório)
+*.exe
+*.o
+*.obj
+a.out
+
+# VS Code (mantém só a configuração do botão de rodar .cz)
+.vscode/*
+!.vscode/settings.json
+
+# Arquivos do sistema
+Thumbs.db
+desktop.ini
+.DS_Store

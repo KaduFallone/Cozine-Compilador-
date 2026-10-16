@@ -1,0 +1,7 @@
+# Teste 19: erro semântico (valor recebido só dentro do bloco)
+panela x: int;
+garfo (1 > 0) {
+    x = 5;
+    acenderfogao(x);
+};
+acenderfogao(x);

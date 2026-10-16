@@ -1,0 +1,3 @@
+# Teste 10: erro léxico (texto sem aspas de fechamento)
+panela nome: str = "Ana";
+acenderfogao("Ola, nome);

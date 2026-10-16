@@ -1,0 +1,4 @@
+# Teste 4: erro léxico (símbolo que não existe na Cozine)
+panela total: int = 10;
+total = total @ 2;
+acenderfogao(total);

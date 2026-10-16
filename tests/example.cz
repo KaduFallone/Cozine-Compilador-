@@ -1,0 +1,21 @@
+# Cozine: calcula o preço de um pedido
+panela quantidade: int = 3;
+panela preco: float = 8.5;
+panela total: float;
+panela i: int;
+
+total = quantidade * preco;
+acenderfogao("Total:", total);
+acenderfogao((quantidade + 2) * preco - 1);
+
+garfo (total > 20) {
+    acenderfogao("Desconto:", total - 20);
+} colher (total == 20) {
+    acenderfogao("Sem desconto");
+} faca {
+    acenderfogao("Pedido pequeno");
+};
+
+flambar (i em range(0, 3)) {
+    acenderfogao("Prato", i);
+};

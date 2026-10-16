@@ -1,0 +1,33 @@
+# Teste 8: receitas (funções), com retorno, sem retorno e recursão
+receita dobro(x: int) -> int {
+    comer x * 2;
+};
+
+receita media(a: float, b: float) -> float {
+    comer (a + b) / 2;
+};
+
+receita maior(a: int, b: int) -> int {
+    garfo (a > b) {
+        comer a;
+    } faca {
+        comer b;
+    };
+};
+
+receita fatorial(n: int) -> int {
+    garfo (n <= 1) {
+        comer 1;
+    };
+    comer n * fatorial(n - 1);
+};
+
+receita anunciar(prato: str) {
+    acenderfogao("Saindo:", prato);
+};
+
+acenderfogao(dobro(21));
+acenderfogao(media(7, 8));
+acenderfogao(maior(3, 9));
+acenderfogao(fatorial(5));
+anunciar("lasanha");
